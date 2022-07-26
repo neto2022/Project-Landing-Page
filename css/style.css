@@ -40,13 +40,17 @@ body{
     padding: 0.9em;
     margin: -12px;
     margin-left: -5em;
-    width: 120%;
+    width: 85.4em;
     background-color: #1f2937;
 }
 
 .header-text1{
     font-weight: bolder;
     font-size: 48px;
+}
+.header-text2{
+    margin-top: -2em;
+    font-size: 18px;
 }
 
 .sign-up{
@@ -58,14 +62,22 @@ body{
 }
 .header-bottom{
     display: flex;
-    margin-right: 15em;
-    margin-left: 10em;
+    margin-right: 13.99em;
+    margin-left: 9em;
+    margin-bottom: 5em;
+    margin-top: 3em;
     justify-content: space-between;
+}
+.sign-area{
+    width: 30em;
 }
 
 .placeholder-img{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 6%;
-    background-color: gray;
+    margin-top: 2em;
+    height: 15em;
+    width: 30em;
+    background-color: rgba(128, 128, 128, 0.747);
 }
