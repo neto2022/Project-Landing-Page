@@ -35,8 +35,8 @@
 .header{
     padding: 0.9em;
     margin: -12px;
-    margin-left: -5em;
-    width: 88.8em;
+    margin-left: -0.9em;
+    width: 84.6em;
     background-color: #1f2937;
 }
 
@@ -79,6 +79,7 @@
 }
 
 .middle{
+    padding-top: 2em;
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -115,6 +116,7 @@
 }
 
 .middle-row{
+    padding-bottom: 6em;
     display: flex;
     flex-direction: row;
     margin-top: 2.5em;
@@ -186,4 +188,15 @@
     padding-right: 30px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 1.5em;
+    padding-left: 7.5em;
+    margin: -12px;
+    margin-left: -5em;
+    width: 88.8em;
 }
